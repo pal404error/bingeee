@@ -1,0 +1,43 @@
+<html>
+<head><title>Bingeee | Swipe and Binge</title></head>
+<link rel="stylesheet" href="style.css">
+<script src="logic.js"></script>
+	<body>
+		
+			<div class="layer">
+					<h1 class="headline">Whatcha Watchin ?</h1>
+			</div>
+			<center>
+				<div class="box">
+						<div class="buttons">
+							<!-- Dislike Button Start-->
+					          <button class="wrong nav-btn" id="down" onclick="disliked()">
+					          	<div class="tooltip"><img src="mediaNstuff/wr.png" class="icon">
+								  <span class="tooltiptext">Nope</span>
+								</div>
+					          </button>
+					          <!-- Like Button Start-->
+					          <button class="right nav-btn" id="up" onclick="liked()">
+					          	<div class="tooltip">
+					          		<a id="sauce" target="_blank" href="https://drive.google.com/drive/folders/1-cl-23F3EKm4LP56mzV1uagA2KEpPW4j?usp=sharing">
+					          			<img src="mediaNstuff/right.png" class="icon">
+					          		</a>
+								  <span class="tooltipbot">Binge It</span>
+								</div>
+					          </button>
+
+					          <!-- Image Poster Start-->
+						</div>
+						<div class="img" >
+							<img id="change" class="imgclass" src="mediaNstuff/pos1.jpg">
+						</div>
+
+						<!-- Poster Title/ Movie name Start Start-->
+						<div class="title" >
+							<h1 id="caption">The Shawshank Redemption (1994)</h1>
+						</div>
+				</div>
+			</center>
+	
+	</body>
+</html>
